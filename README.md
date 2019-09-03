@@ -20,7 +20,7 @@ Complete this part of the homework by committing your solution in the [HelloJUni
 
 # Part II Maven Support of JUnit (10 points)
 
-The [HelloJUnit5](https://github.com/makotogo/HelloJUnit5) project includes the needed support to run tests via `mvn` in the CLI. The functionality is provided by the [Maven Surefire Plugin](https://maven.apache.org/surefire/maven-surefire-plugin/examples/junit-platform.html).
+The [HelloJUnit5](https://github.com/makotogo/HelloJUnit5) project includes the needed support to run tests via `mvn` in the CLI. Look to that `pom.xml` for an example to how to add in support for running tests. That support is provided by the [Maven Surefire Plugin](https://maven.apache.org/surefire/maven-surefire-plugin/examples/junit-platform.html).
 
 Complete this part of the homework by copying into this repository the code used to complete the previous **HW0 Tooling** homework with its `pom.xml` file, adding to that file anything needed for the [Maven Surefire Plugin](https://maven.apache.org/surefire/maven-surefire-plugin/examples/junit-platform.html) to build and run JUnit tests, and then adding in a single test to verify `mvn` finds, builds, runs, and reports the test. As a reminder, the code should be a few hundred lines with a fully documented class from the previous homework. 
 
@@ -40,5 +40,8 @@ Students are expected to use descriptive naming conventions for test methods. Th
 | Meaningful tests that cover JUnit 5 core functionality (with life-cycle, assumption, and nested features) | 25 | |
 | Descriptive test names with consistent naming convention | 10 | |
 | Well-formed commits (logically grouped with correctly styled messages) | 15 | | 
+| No warnings or errors in build | 10 | |
+| No warnings or errors in CheckStyle | 10 | |
+
 
 
