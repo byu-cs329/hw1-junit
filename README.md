@@ -38,7 +38,7 @@ Students are expected to use descriptive naming conventions for test methods. Th
 | Solution for [HelloJUnit5](https://github.com/makotogo/HelloJUnit5) | 25 | |
 | `pom.xml` runs tests as expected | 10 | |
 | Meaningful tests that cover JUnit 5 core functionality (with life-cycle, assumption, and nested features) | 25 | |
-| Descriptive test names with consistent naming convention | 10 | |
+| Descriptive test names with consistent naming convention and JavaDoc documentation | 10 | |
 | Well-formed commits (logically grouped with correctly styled messages) | 15 | | 
 | No warnings or errors in build | 10 | |
 | No warnings or errors in CheckStyle | 10 | |
