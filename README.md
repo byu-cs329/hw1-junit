@@ -4,11 +4,13 @@ The goal of this homework is to become familiar with the JUnit 5 Jupiter API. JU
 
 After the homework, a student should be able to:
 
-* Add the JUnit 5 dependency to a Maven project
-* Write standard JUnit 5 tests
-* Write parameterized and dynamic JUnit 5 tests
-* Run JUnit 5 tests from the command line via `mvn` and the [Surefire Plugin](https://maven.apache.org/surefire/maven-surefire-plugin/) for reporting.
-* Create patches with `git` and the `format-patch` command.
+  * Add the JUnit 5 dependency to a Maven project
+  * Write standard JUnit 5 tests
+  * Document tests with `@Tag` and `@DisplayName`
+  * Organize tests with `@Nested`
+  * Write parameterized and dynamic JUnit 5 tests
+  * Run JUnit 5 tests from the command line via `mvn` and the [Surefire Plugin](https://maven.apache.org/surefire/maven-surefire-plugin/) for reporting.
+  * Create patches with `git` and the `format-patch` command.
 
 # Part I (40 points)
 
@@ -29,6 +31,8 @@ Complete this part of the homework by copying into this repository the code used
 Complete this part by writing tests for the code added in the previous part. The tests should cover the features of JUnit from Part I of the [JUnit 5 Jupiter API Tutorial](https://developer.ibm.com/tutorials/j-introducing-junit5-part1-jupiter-api/). Including life-cycle code, assumptions, and nested tests. The tests should be useful and related to the JavaDoc specification.
 
 Students are expected to use descriptive naming conventions for test methods. There are a few key elements to [unit test names](https://qualitycoding.org/unit-test-names/). Pick a [convention](https://dzone.com/articles/7-popular-unit-test-naming) that works for you and stick with it.
+
+Students are also expected to use `@Tag` to help filter tests and `@DisplayName` for more readable output in IDEs and reports. These annotations with grouping tests with nesting constitute acceptable documentation for tests.
 
 # Grading Rubric
 
