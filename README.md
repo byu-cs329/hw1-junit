@@ -16,9 +16,11 @@ After the homework, a student should be able to:
 
 Complete Part I of the [JUnit 5 Jupiter API Tutorial](https://developer.ibm.com/tutorials/j-introducing-junit5-part1-jupiter-api/). Feel free to explore the Eclipse automation if so desired, but keep in mind that `mvn` is the primary interface for running tests and gathering reports.
 
-The [HelloJUnit5](https://github.com/makotogo/HelloJUnit5) repository for the solution does include the solution file for reference. Resist looking at that file too quickly and rather try to figure out the annotations and tests from the tutorial and documentation where possible for better preparation on future homework. 
+The [HelloJUnit5](https://github.com/makotogo/HelloJUnit5) repository for the solution does include the solution file for reference. Resist looking at that file too quickly and rather try to figure out the annotations and tests from the tutorial and documentation where possible for better preparation on future homework.  
 
-Complete this part of the homework by committing your solution in the [HelloJUnit5](https://github.com/makotogo/HelloJUnit5) repository, creating a patch for your solution using `git` and the `format-patch` command, and then adding the patch to the top-level directory of this repository. The patch should include only changes needed to complete the tutorial. Be sure to follow commit and other code documentation guidelines.
+Some students have reported that the `pom.xml` file in the tutorial includes dependencies that muddle the reporting in `mvn test`. It is suggested that the following be removed from the `pom.xml`: `junit-platform-runner`, `junit-standalone-console-reporter`, and vintage engine dependencies.
+
+Complete this part of the homework by committing your solution in the [HelloJUnit5](https://github.com/makotogo/HelloJUnit5) repository, creating a patch for your solution using `git` and the `format-patch` command, and then adding that patch, as a file, to the top-level directory of this repository (e.g., **do not apply the patch** but rather just add it as a file to this repository). The patch should include only changes needed to complete the tutorial. 
 
 # Part II Maven Support of JUnit (10 points)
 
