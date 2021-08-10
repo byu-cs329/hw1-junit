@@ -36,18 +36,10 @@ Students are expected to use descriptive naming conventions for test methods. Th
 
 Students are also expected to use `@Tag` to help filter tests and `@DisplayName` for more readable output in IDEs and reports. These annotations with grouping tests with nesting constitute acceptable documentation for tests.
 
-# Grading Rubric
-
-| Problem | Point Value | Your Score |
-| ------- | ----------- | ---------- |
-| Patch for [HelloJUnit5](https://github.com/makotogo/HelloJUnit5)  | 15 | |
-| Solution for [HelloJUnit5](https://github.com/makotogo/HelloJUnit5) | 25 | |
-| `pom.xml` runs tests as expected | 10 | |
-| Meaningful tests that cover JUnit 5 core functionality (with life-cycle, assumption, and nested features) | 25 | |
-| Descriptive test names with consistent naming convention and JavaDoc documentation | 10 | |
-| Well-formed commits (logically grouped with correctly styled messages) | 15 | | 
-| No warnings or errors in build | 10 | |
-| No warnings or errors in CheckStyle | 10 | |
-
+# Grading 
+Upon completion of the homework and uploading of your pull request, GitHub will give you a sanity check by running `mvn verify site` on your code. 
+Note that passing the build *does not* mean that you will get full credit for the assignment. 
+However, please make sure your build passes in order for TAs to grade your assignment.
+Please reread this writeup to make sure you have completed all the requirements, and refer to the grading rubric on Canvas for details on grading.
 
 
